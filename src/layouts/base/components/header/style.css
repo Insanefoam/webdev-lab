@@ -1,0 +1,51 @@
+.header{
+    margin-top: 81px;
+    margin-bottom: 90px;
+    line-height: 25px;
+    color: black;
+    font-family: "Lato";
+    font-weight: 700;
+    margin-left: 224px;
+    margin-right: 224px;
+}
+
+.header__logo{
+    color: #333333;
+    font-size: 42px;
+    font-style: italic;
+    margin-right: 65px;
+    display: inline;
+}
+
+.header-nav{
+    font-size: 16px;
+    display: inline;
+    margin-left: 224px;
+}
+
+.header-nav a{
+    margin: 17px;
+    padding-bottom: 5px;
+}
+
+.header-nav a:hover{
+    border-bottom: 3px solid #5c6bc0;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-nav a:visited{
+    color: black;
+}
+
+.header-nav__search:hover{
+    height: auto;
+    width: auto;
+}
+
+#current{
+    color: #bdbdbd;
+}

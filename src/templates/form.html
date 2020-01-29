@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../styles/form_style.css">
+    <title>Форма для статьи</title>
+</head>
+<body>
+    <form method="get" id="article_form">
+        <h1>Статья</h1>
+        <h2>
+            <label for="caption">Заголовок статьи<span>*</span></label>
+            <input type="text" name="caption" id="caption" class="field"
+                   placeholder="Заголовок" tabindex="1" required>
+        </h2>
+        <h3>
+            <label for="text">Текст статьи<span>*</span></label>
+            <textarea name="text" id="text" cols="30" rows="10" class="field" 
+                      placeholder="Текст статьи" tabindex="2" required></textarea>
+        </h3>
+        <h4>
+            <label for="stheme">Краткая тема<span>*</span></label>
+            <input type="text" name="stheme" id="stheme" placeholder="Тема" tabindex="3" required class="field">
+            <label for="tags">Введите тэги:<span>*</span></label>
+            <input type="text" name="tags" id="tags" placeholder="Тэги через запятую" tabindex="4" required class="field">
+            <label for="email">E-mail автора<span>*</span></label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" tabindex="5" required class="field">
+            <input type="submit" value="Опубликовать" id="submit" disabled>
+        </h4>
+    </form>
+    <script src="../scripts/form_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+form{
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+h1{
+    border-bottom: 1px solid black;
+    margin: 30px;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;    
+}
+#caption{
+    display: block;
+    position: relative;
+    left: 40%;
+    width: 20%;
+}
+#text{
+    display: block;
+    width: 98%;
+    margin: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; 
+}
+h4{
+    text-align: left;
+    margin: 30px;
+}
+#tags, #email, #stheme{
+    font-size: 22px;
+}
+span{
+    color: red;
+}

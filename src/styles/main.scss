@@ -1,0 +1,13 @@
+/* Variables */
+@import "_variables";
+
+/* Layout */
+@import "../layouts/base/style";
+@import "../layouts/base/components/header/style.css";
+@import "../layouts/base/components/footer/style.css";
+
+/* Pages */
+@import "../pages/index/style.css";
+
+/* Components */
+@import "../components/article/style.css";

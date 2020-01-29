@@ -1,0 +1,255 @@
+body{
+    padding: 0px;
+    background-color: #f7f9fc;
+    line-height: 25px;
+    color: black;
+    font-family: "Lato";
+    font-weight: 700;
+    margin: 0px;
+}
+
+.page{
+    margin-left: 224px;
+    margin-right: 224px;
+}
+
+.header{
+    margin-top: 81px;
+    margin-bottom: 90px;
+}
+
+.header__logo{
+    color: #333333;
+    font-size: 42px;
+    font-style: italic;
+    margin-right: 368px;
+    display: inline;
+}
+
+.header-nav{
+    font-size: 16px;
+    display: inline;
+    margin-left: 224px;
+}
+
+.header-nav a{
+    margin: 17px;
+    padding-bottom: 5px;
+}
+
+.header-nav a:hover{
+    border-bottom: 3px solid #5c6bc0;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-nav a:visited{
+    color: black;
+}
+
+.header-nav__search:hover{
+    height: auto;
+    width: auto;
+}
+
+#current{
+    color: #bdbdbd;
+}
+
+.post-preimage{
+    width: 100%;
+}
+
+.post{
+    padding: 60px 100px 80px 96px;    
+    filter: drop-shadow(0 0 12.5px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.post__sticker{
+    width: 88px;
+    height: 32px;
+    background-color: #5c6bc0;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    left: 102%; 
+}
+
+.post__sticker:hover{
+    width: 100px;
+    transition: 0.5s;
+}
+
+.post__date{
+    font-size: 14px;
+    line-height: 50px;
+    color: #bdbdbd;
+}
+
+.post__name{
+    font-size: 40px;
+    line-height: 50px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.post__pretext{
+    font-size: 25px;
+    line-height: 38px;
+    color: #a3a3a3;
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.post__text{
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.post-footer__readmore, .post-footer__tags{
+    display: inline-block;
+}
+
+.post-footer__readmore{
+    font-size: 21px;
+    line-height: 50px;
+    color: #5c6bc0;
+    padding: 20px 32px 20px 32px;
+}
+
+.post-footer__readmore:hover{
+    border: 1px solid #f1f1f1;
+    margin: -1px;
+}
+
+.post-footer__readmore:focus{
+    border: 1px solid #7d89cd;
+    margin: -1px;
+}
+
+.post-footer__tags{
+    font-size: 15px;
+    line-height: 50px;
+    color: #bdbdbd;
+    font-weight: 400;
+    float: right;
+    word-spacing: 15px;
+}
+
+.post-footer__tag:visited{
+    color: #bdbdbd;
+}
+
+.post-footer__tag:hover{
+    color: #7d89cd;
+    border-bottom: 1px #7d89cd;
+}
+
+.post__image{
+    float: left;
+    margin-right: 25px;
+}
+
+.post__quote{
+    font-size: 20px;
+    line-height: 30px;
+    color: #a3a3a3;
+    font-weight: 400;
+    border-left: 3px solid #eeeeee;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.post__hypertext{
+    color: #5c6bc0;
+    text-decoration: underline;
+    font-weight: 700;    
+}
+
+.footer{
+    height: 530px;
+    background-color: #5c6bc0;
+    padding: 70px 335px 80px 335px;
+}
+
+.footer__logo{
+    font-size: 36px;
+    color: #4a569a;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.footer-nav{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.footer-nav a{
+    margin: 40px;
+}
+
+.footer-nav a:hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    transition: 0.5s;
+}
+
+.footer-nav a:visited{
+    color: white;
+}
+
+.footer__discription{
+    font-size: 15px;
+    line-height: 23px;
+    color: #9da6d9;
+    font-weight: 400;
+    text-align: center;
+    padding: 45px 15px 45px 15px;
+    border-top: 1px solid #5765b5;
+    border-bottom: 1px solid #5765b5;
+    margin-bottom: 40px;
+}
+
+.footer__copyright{
+    font-size: 18px;
+    line-height: 30px;
+    color: #9da6d9;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.copyright-team{
+    color: white;
+}
+
+.copyright-team:hover{
+    text-decoration: underline;
+}
+
+.footer__social a{
+    margin: 25px;
+}
+
+.footer__social img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer__social{
+    text-align: center;
+}

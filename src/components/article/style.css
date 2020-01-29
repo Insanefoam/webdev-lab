@@ -1,0 +1,117 @@
+.post{
+    padding: 60px 100px 80px 96px;    
+    filter: drop-shadow(0 0 12.5px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    font: "Lato";
+}
+
+.post__sticker{
+    width: 88px;
+    height: 32px;
+    background-color: #5c6bc0;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    left: 102%; 
+}
+
+.post__sticker:hover{
+    width: 100px;
+    transition: 0.5s;
+}
+
+.post__date{
+    font-size: 14px;
+    line-height: 50px;
+    color: #bdbdbd;
+}
+
+.post__name{
+    font-size: 35px;
+    line-height: 50px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.post__pretext{
+    font-size: 25px;
+    line-height: 38px;
+    color: #a3a3a3;
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.post__text{
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.post-footer__readmore, .post-footer__tags{
+    display: inline-block;
+}
+
+.post-footer__readmore{
+    font-size: 21px;
+    line-height: 50px;
+    color: #5c6bc0;
+    padding: 20px 32px 20px 32px;
+}
+
+.post-footer__readmore:hover{
+    border: 1px solid #f1f1f1;
+    margin: -1px;
+}
+
+.post-footer__readmore:focus{
+    border: 1px solid #7d89cd;
+    margin: -1px;
+}
+
+.post-footer__tags{
+    font-size: 15px;
+    line-height: 50px;
+    color: #bdbdbd;
+    font-weight: 400;
+    float: right;
+    word-spacing: 15px;
+}
+
+.post-footer__tag:visited{
+    color: #bdbdbd;
+}
+
+.post-footer__tag:hover{
+    color: #7d89cd;
+    border-bottom: 1px #7d89cd;
+}
+
+.post__image{
+    float: left;
+    margin-right: 25px;
+}
+
+.post__quote{
+    font-size: 20px;
+    line-height: 30px;
+    color: #a3a3a3;
+    font-weight: 400;
+    border-left: 3px solid #eeeeee;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.post__hypertext{
+    color: #5c6bc0;
+    text-decoration: underline;
+    font-weight: 700;    
+}
